@@ -1,0 +1,45 @@
+button.cta-button-main {
+	background-color: $color__brand-primary;
+	border: 2px solid $color__brand-primary;
+	color: white;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block !important;
+	font-size: 16px;
+	margin: 4px 2px;
+	padding-left: 20px;
+	padding-right: 20px;
+	min-width: 120px;
+	height: 40px;
+	border-radius: 8px 
+}
+
+button.cta-button-main:hover{
+	transition:0.2s;
+	border: 2px solid $color__brand-primary-hover;
+	background-color: $color__brand-primary-hover;
+}
+
+
+button,
+input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+	border: 1px solid;
+	border-color: $color__border-button;
+	border-radius: 3px;
+	background: $color__background-button;
+	color: rgba(0, 0, 0, .8);
+	@include font-size(0.75);
+	line-height: 1;
+	padding: .6em 1em .4em;
+
+	&:hover {
+		border-color: $color__border-button-hover;
+	}
+
+	&:active,
+	&:focus {
+		border-color: $color__border-button-focus;
+	}
+}

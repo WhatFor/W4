@@ -1,0 +1,31 @@
+#about-header-container {
+    width: 100%;
+    height: 300px;
+    padding: 10% 10%;
+    display: block;
+}
+
+#about-body-container {
+
+    .profile-container {
+        width: 100%;
+        height: 250px;
+
+        .profile-content {
+            display: inline-block;
+            margin-left: 50px;
+            vertical-align: top;
+        }
+
+        .profile-picture {
+            width: 200px;
+            height: 200px;
+            background-color: red;
+            display: inline-block;
+        }
+    }
+
+    #chris-container {
+        margin-bottom: 50px;
+    }
+}

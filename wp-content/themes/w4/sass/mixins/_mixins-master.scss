@@ -1,0 +1,31 @@
+// Rem output with px fallback
+@mixin font-size($sizeValue: 1) {
+	font-size: ($sizeValue * 16) * 1px;
+	font-size: $sizeValue * 1rem;
+}
+
+// Center block
+@mixin center-block {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+// Clearfix
+@mixin clearfix() {
+	content: "";
+	display: table;
+	table-layout: fixed;
+}
+
+// Clear after (not all clearfix need this also)
+@mixin clearfix-after() {
+	clear: both;
+}
+
+@mixin dropShadow($top, $left, $blur, $color) {
+	-webkit-filter: drop-shadow(#{$top}px #{$left}px #{$blur}px $color);
+	-webkit-box-shadow: $top $left $blur $color;
+	-moz-box-shadow: $top $left $blur $color;
+	box-shadow: $top $left $blur $color;
+}

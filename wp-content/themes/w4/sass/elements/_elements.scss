@@ -1,0 +1,67 @@
+html {
+	box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after { /* Inherit box-sizing to make it easier to change the property for components that leverage other behavior; see http://css-tricks.com/inheriting-box-sizing-probably-slightly-better-best-practice/ */
+	box-sizing: inherit;
+}
+
+body {
+	background: $color__background-body; /* Fallback for when there is no custom background color defined. */
+}
+
+blockquote, q {
+	quotes: "" "";
+
+	&:before,
+	&:after {
+		content: "";
+	}
+}
+
+hr {
+	background-color: $color__background-hr;
+	border: 0;
+	height: 1px;
+	margin-bottom: 1.5em;
+}
+
+@import "lists";
+
+img {
+	height: auto; /* Make sure images are scaled correctly. */
+	max-width: 100%; /* Adhere to container width. */
+}
+
+figure {
+	margin: 1em 0; /* Extra wide images within figure tags don't overflow the content area. */
+}
+
+button {
+	.cta {
+    background-color: $color__brand-primary;
+    border: 2px solid $color__brand-primary;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    padding-left: 20px;
+    padding-right: 20px;
+    min-width: 120px;
+    height: 40px;
+    border-radius: 8px 
+		
+	}
+	.cta:hover{
+		transition:0.2s;
+		border: 2px solid $color__brand-primary;
+		color: $color__brand-primary;
+		background-color: #fff;
+	}
+}
+
+@import "tables";
