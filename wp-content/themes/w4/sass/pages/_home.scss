@@ -1,3 +1,164 @@
-body {
-    background-color: $color__brand_background_one
+.site-main-home {
+
+    #main-slider {
+        height: 500px;
+        background-color: black;
+        padding-left: 15%;
+        padding-top: 100px;
+
+        #main-slider-image {
+            width: 400px;
+            height: 250px;
+            background-color: red;
+            display: inline-block;
+        }
+
+        #main-slider-content {
+            
+            display: inline-block;
+            padding-left: 5%;
+
+            #main-slider-header {
+                color: $color__text-main-white;
+                display: block;
+                
+            }
+
+            #main-slider-body {
+                display: block;
+                width: 700px;
+                color: $color__text-main-white;
+            }
+
+            #main-slider-button {
+                display: block;
+            }
+        }
+    }
+
+    #types-section {
+
+        display: block;
+        background-color: blue;
+        margin: auto;
+        text-align: center;
+        padding: 75px 0px;
+
+
+        .type-content {
+            width: 300px;
+            margin: 0px 100px;
+            display: inline-block;
+            background-color: green;
+
+            .type-section-image {
+                background-color: black;
+                width: 275px;
+                height: 275px;
+                display: block;
+                margin:  12.5px auto;
+            }
+
+            .type-section-header {
+                margin: 0px;
+            }
+
+            .type-section-body {
+                margin: 5px 15px;
+            }
+
+            .type-section-button {
+                margin: 10px 0px;
+            }
+        }
+    }
+
+    #about-us-section {
+
+        height: 400px;
+        background-color: black;
+        display: block;
+        padding: 50px 400px;
+
+        #about-us-image {
+            width: 300px;
+            height: 300px;
+            background-color: red;
+            float: right;
+        }
+
+        #about-us-content {
+
+            display: inline-block;
+
+            #about-us-header {
+                display: block;
+                color: $color__text-main-white;
+            }
+
+            #about-us-body {
+                display: block;
+                width: 500px;
+                color: $color__text-main-white;
+            }
+        }
+    }
+
+    #solutions-section {
+
+        .solution-section-content {
+
+            display: block;
+            padding: 50px 300px;
+            height: 330px;
+
+            .solution-content {
+
+                display: inline-block;
+                margin-left: 100px;
+
+                .solution-content-header {
+                    color: $color__text-main-white;
+                }
+
+                .solution-content-body {
+                    color: $color__text-main-white;
+                }
+            }
+            
+            .solution-image {
+                width: 200px;
+                height: 200px;
+                display: inline-block;
+                background-color: green;
+            }
+        }
+
+        #complete-solution {
+            background-color: blue;
+        }
+
+        #install-solution {
+            background-color: red;
+
+            .solution-image {
+                float: right;
+            }
+        }
+
+        #handover-solution {
+            background-color: blue;
+        }
+    }
+
+    #clients-section {
+        height: 600px;
+        display: block;
+        background-color: purple;
+        padding: 100px 400px;
+
+        h1 {
+            color: $color__text-main-white;
+        }
+    }
 }

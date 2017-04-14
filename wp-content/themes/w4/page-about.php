@@ -4,7 +4,7 @@ get_header(); ?>
 
 	<div id="primary" class="content-area">
 
-		<main id="main" class="site-main" role="main">
+		<main id="main" class="site-main site-main-about" role="main">
 			
 		<div id="about-header-container">
 
