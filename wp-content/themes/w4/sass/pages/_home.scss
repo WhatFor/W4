@@ -39,7 +39,7 @@
     #types-section {
 
         display: block;
-        background-color: blue;
+        background-color: $color__brand-background_one;
         margin: auto;
         text-align: center;
         padding: 75px 0px;
@@ -49,7 +49,9 @@
             width: 300px;
             margin: 0px 100px;
             display: inline-block;
-            background-color: green;
+            background-color: $color__brand-background_three;
+            border-radius: 5px;
+            border: 1px solid $color__brand-background_two;
 
             .type-section-image {
                 background-color: black;
@@ -68,7 +70,7 @@
             }
 
             .type-section-button {
-                margin: 10px 0px;
+                margin: 10px 0px 20px 0px;
             }
         }
     }

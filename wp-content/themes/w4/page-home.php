@@ -38,14 +38,14 @@ get_header(); ?>
 					<div class="type-section-image">
 					</div>
 					
-					<h3 class="type-section-header">Header</h3>
+					<h3 class="type-section-header">Personal</h3>
 					
 					<p class="type-section-body">
-						This is body text describing one of our many services. Check it outtttt.
+						From personal blogs to portfolios, we can build a modern, custom page no matter what your passion is.
 					</p>
 					
 					<button class="type-section-button">
-						Ayy lamb kebab
+						Find out more
 					</button>
 				</div>
 
@@ -53,14 +53,14 @@ get_header(); ?>
 					<div class="type-section-image">
 					</div>
 					
-					<h3 class="type-section-header">Header</h3>
+					<h3 class="type-section-header">Business</h3>
 					
 					<p class="type-section-body">
-						This is body text describing one of our many services. Check it outtttt.
+						From small to large businesses, we can deliver a site that gives you a professional edge over competition.
 					</p>
 					
 					<button class="type-section-button">
-						Ayy lamb kebab
+						Find out more
 					</button>
 				</div>
 
@@ -69,14 +69,14 @@ get_header(); ?>
 					<div class="type-section-image">
 					</div>
 					
-					<h3 class="type-section-header">Header</h3>
+					<h3 class="type-section-header">eCommerce</h3>
 					
 					<p class="type-section-body">
-						This is body text describing one of our many services. Check it outtttt.
+						With a background in eCommerce, our pages are built using insider knowledge to push your sales to the limit.
 					</p>
 					
 					<button class="type-section-button">
-						Ayy lamb kebab
+						Find out more
 					</button>
 				</div>
 
