@@ -24,7 +24,10 @@
 
 				<a class="inline-el" href="/wordpress">
 					<div id="nav-logo"></div>
+					<div id="nav-logo-text">Web Studio</div>
+					
 				</a>
+
 
 				<div id ="nav-bar-with-button">
 
