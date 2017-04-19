@@ -29,7 +29,7 @@
 				</a>
 
 
-				<div id ="nav-bar-with-button">
+				<nav id ="nav-bar-with-button">
 
 					<div id="menu-buttons-container">
 						<a href="/wordpress"> 
@@ -61,7 +61,9 @@
 						</form>
 
 					</div>
-				</div>
+
+					<span id="mobile-burger">menu &#9776;</span>
+				</nav>
 			</div>
 		</nav>
 

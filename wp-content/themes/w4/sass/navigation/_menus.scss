@@ -1,3 +1,19 @@
+//here starts burger
+@media screen and (max-width: 900px){
+	#menu-buttons-container{
+		display:none;
+	}
+
+	#mobile-burger{
+		float:right;
+		clear:both;
+		text-align: center;
+		font-weight:bold;
+		font-size:18px;
+		padding:15px 30px;
+	}
+}
+
 .main-navigation {
 	clear: both;
 	display: inline-block;
@@ -12,6 +28,12 @@
 
 	@include dropShadow(0, 2, 4, rgba(0, 0, 0, 0.15));
 
+	// hiding burger/menu on full width
+	@media screen and (min-width: 900px){
+		#mobile-burger{
+			display:none;
+		}
+	}
 
 	ul {
 		display: none;
@@ -40,7 +62,7 @@
 			}
 
 			a {
-				width: 200px;
+				min-width: 200px;
 			}
 		}
 
@@ -122,6 +144,7 @@
 	a {
 		display: inline-block;
 		height: 60px;
+		
 	}
 
 	a:hover {
@@ -131,6 +154,8 @@
 	span {
 		display: block;
 		padding: 15px 40px;
+		font-size:18px;
+		line-height: 33px;
 	}
 }
 //*** END - MENU BUTTONS CONTAINER - END **//
