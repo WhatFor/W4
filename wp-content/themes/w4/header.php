@@ -34,19 +34,21 @@
 					<div id="menu-buttons-container">
 						<ul class="active">
 
-							<li><a href="/wordpress">Home</a></li>
+							<li class="menu__item"><a class="menu__link" href="/wordpress">Home</a></li>
 
-							<li><a href="/wordpress/sites-for">Services</a></li>
+							<li class="menu__item"><a class="menu__link" href="/wordpress/sites-for">Services</a></li>
 
-							<li><a href="/wordpress/showcase">Clients</a></li>
+							<li class="menu__item"><a class="menu__link" href="/wordpress/showcase">Clients</a></li>
 
-							<li><a href="/wordpress/about">About</a></li>
+							<li class="menu__item"><a class="menu__link" href="/wordpress/about">About</a></li>
 
-							<form class="inline-el" action="/wordpress/contact">
+							<form class="inline-el menu-link" action="/wordpress/contact">
 								<button type="submit" class="cta-button-main">Let's Talk</button>
 							</form>
 
 						</ul>
+
+					
 					</div>
 
 					<a id="mobile-burger">menu &#9776;</a>
