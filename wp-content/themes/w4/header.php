@@ -4,7 +4,13 @@
 	<head>
 		<meta charset="<?php bloginfo( 'charset' ); ?>">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<?php wp_head(); ?>
+
+		<?php 
+			wp_head(); 
+
+			wp_enqueue_script( 'menu_script', get_stylesheet_directory_uri() . '/js/menu.js', array('jquery'));
+		?>
+
 	</head>
 
 	<body <?php body_class(); ?>>
