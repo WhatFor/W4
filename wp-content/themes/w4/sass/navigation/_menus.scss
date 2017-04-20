@@ -1,5 +1,5 @@
 //here starts burger
-@media screen and (max-width: 900px){
+@media screen and (max-width: 899px){
 	#menu-buttons-container{
 		display:none;
 	}
@@ -9,8 +9,10 @@
 		clear:both;
 		text-align: center;
 		font-weight:bold;
+		color:$color__text-main;
+		line-height: 34px;
 		font-size:18px;
-		padding:15px 30px;
+		padding:15px 0px 15px 30px;
 	}
 }
 
@@ -36,7 +38,7 @@
 	}
 
 	ul {
-		display: none;
+		
 		list-style: none;
 		margin: 0;
 		padding-left: 0;
@@ -143,19 +145,14 @@
 
 	a {
 		display: inline-block;
-		height: 60px;
+		height: 60px;padding: 15px 40px;
+		font-size:18px;
+		line-height: 33px;
 		
 	}
 
 	a:hover {
 		border-bottom: 5px solid $color__brand-primary;
-	}
-
-	span {
-		display: block;
-		padding: 15px 40px;
-		font-size:18px;
-		line-height: 33px;
 	}
 }
 //*** END - MENU BUTTONS CONTAINER - END **//

@@ -6,8 +6,8 @@ button.cta-button-main {
 	text-decoration: none;
 	display: inline-block !important;
 	font-size: 16px;
-	margin: 4px 2px;
-	margin-left: 10px;
+	margin-top:10px;
+	margin-left: 15px;
 	padding-left: 20px;
 	padding-right: 20px;
 	min-width: 120px;
@@ -16,6 +16,7 @@ button.cta-button-main {
 }
 
 button.cta-button-main:hover{
+	
 	transition:0.2s;
 	color:$color__brand-primary-hover;
 	border: 2px solid $color__brand-primary-hover;

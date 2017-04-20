@@ -32,37 +32,24 @@
 				<nav id ="nav-bar-with-button">
 
 					<div id="menu-buttons-container">
-						<a href="/wordpress"> 
-							<span>
-								Home
-							</span>
-						</a>
+						<ul class="active">
 
-						<a href="/wordpress/sites-for"> 
-							<span>
-								Services
-							</span>
-						</a>
+							<li><a href="/wordpress">Home</a></li>
 
-						<a href="/wordpress/showcase"> 
-							<span>
-								Clients
-							</span>
-						</a>
+							<li><a href="/wordpress/sites-for">Services</a></li>
 
-						<a href="/wordpress/about"> 
-							<span>
-								About
-							</span>
-						</a>
+							<li><a href="/wordpress/showcase">Clients</a></li>
 
-						<form class="inline-el" action="/wordpress/contact">
-							<button type="submit" class="cta-button-main">Let's Talk</button>
-						</form>
+							<li><a href="/wordpress/about">About</a></li>
 
+							<form class="inline-el" action="/wordpress/contact">
+								<button type="submit" class="cta-button-main">Let's Talk</button>
+							</form>
+
+						</ul>
 					</div>
 
-					<span id="mobile-burger">menu &#9776;</span>
+					<a id="mobile-burger">menu &#9776;</a>
 				</nav>
 			</div>
 		</nav>
