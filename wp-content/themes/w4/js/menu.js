@@ -1,35 +1,40 @@
-jQuery('document').ready(function() {
-	alert("Hello");
-});
-
-//Note: For some reason the $ alias isn't working for jQuery, but it can
-//      be called using jQuery(). FeelsBadMan. Will fix in future. Maybe.
-
 jQuery('#mobile-burger').on('click', function() {
 
-	var elem = $(this),
-		item = $('.menu__item'),
+	var elem = jQuery(this),
+		item = jQuery('.menu__item'),
 		active = 'is-active',
 		play = 'menu__item--play';
 
-	if (  elem.hasClass(active) ) {
+    //If our menu is active (i.e. it has been clicked at some point in the past)
+	if (elem.hasClass(active)) {
+
+        //Turn off the menu
 		elem.removeClass(active);
-		$(item.get().reverse()).each(function(i) {
-			var row = $(this);
-				setTimeout(function() {
-					row.removeClass(play);
+
+        // and for each of our menu items, starting with the first, remove our trigger animation
+		jQuery(item.get().reverse()).each(function(i) {
+
+			var row = jQuery(this);
+
+            // Set a 50ms delay betwen each one hiding
+            setTimeout(function() {
+                row.removeClass(play);
 			}, 50*i);
 		});
 	}
 
+    // Otherwise, if it's not active when clicked, make it active
 	else {
 		elem.addClass(active);
+
+        //and display our menu items.
 		item.each(function(i) {
-			var row = $(this);
-				setTimeout(function() {
-					row.addClass(play);
+
+			var row = jQuery(this);
+
+            setTimeout(function() {
+                row.addClass(play);
 			}, 50*i);
 		});
 	}
-
 });

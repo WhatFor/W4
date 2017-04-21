@@ -1,7 +1,44 @@
-//here starts burger
+//Burger Menu Styling (small screens)
 @media screen and (max-width: 899px){
-	#menu-buttons-container{
-		display:none;
+
+	//This CSS is OFF
+	.menu__item  {
+		background: white;
+		width: 0%;
+		transition: all .5s ease;
+		border-top: 1px #afafaf solid;
+		margin-left: -30px;
+		transition: all .4s ease;
+		
+		a {
+			display: none !important;
+		}
+
+		//This CSS is ON
+		&--play {
+
+			width: 100vw;
+
+			a {
+				display: block !important;
+				width: 100vw;
+			}
+
+			a:hover {
+				background: $color__brand-primary;
+				transition: all .4s ease;
+				color: white !important;
+			}
+		}
+	}
+
+	#nav-bar-with-button {
+		margin-top: -7px;
+		float: left !important;
+	}
+
+	.menu-link {
+		display: none !important;
 	}
 
 	#mobile-burger{
@@ -16,7 +53,6 @@
 	}
 
 }
-
 
 // desktop nav styling
 .main-navigation {
@@ -37,6 +73,14 @@
 	@media screen and (min-width: 900px){
 		#mobile-burger{
 			display:none;
+		}
+
+		.menu-contact {
+			display: none;
+		}
+
+		.menu-link {
+			display: inline-block;
 		}
 	}
 

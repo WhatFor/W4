@@ -34,9 +34,9 @@
 					
 				</a>
 
+				<a id="mobile-burger">menu &#9776;</a>
 
 				<nav id ="nav-bar-with-button">
-
 					<div id="menu-buttons-container">
 						<ul class="active">
 
@@ -48,16 +48,14 @@
 
 							<li class="menu__item"><a class="menu__link" href="/wordpress/about">About</a></li>
 
-							<form class="inline-el menu-link" action="/wordpress/contact">
+							<li class="menu__item"><a class="menu__link menu-contact" href="/wordpress/contact">Contact Us</a></li>
+
+							<form class="menu-link" action="/wordpress/contact">
 								<button type="submit" class="cta-button-main">Let's Talk</button>
 							</form>
 
 						</ul>
-
-					
 					</div>
-
-					<a id="mobile-burger">menu &#9776;</a>
 				</nav>
 			</div>
 		</nav>
