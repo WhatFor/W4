@@ -1,6 +1,22 @@
-jQuery('document').ready(function() {
-	alert("Hello");
-});
+
+
+//jQuery('.hamburger').on('click', function() {
+ //   this.toggleClass('is-active');
+//});
+
+
+
+// this does work i am done so fuck this shit.
+  // Look for .hamburger
+  var hamburger = document.querySelector(".hamburger");
+  // On click
+  hamburger.addEventListener("click", function() {
+    // Toggle class "is-active"
+    hamburger.classList.toggle("is-active");
+    // Do something else, like open/close menu
+  });
+
+
 
 //Note: For some reason the $ alias isn't working for jQuery, but it can
 //      be called using jQuery(). FeelsBadMan. Will fix in future. Maybe.

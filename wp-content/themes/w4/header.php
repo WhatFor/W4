@@ -57,7 +57,18 @@
 					
 					</div>
 
-					<a id="mobile-burger">menu &#9776;</a>
+					<a id="mobile-burger">
+						<span>menu </span>
+
+						<div class="hamburger hamburger--spring">
+							<div class="hamburger-box">
+								<div class="hamburger-inner"></div>
+							</div>
+						</div>
+					
+					 </a>
+				
+
 				</nav>
 			</div>
 		</nav>
