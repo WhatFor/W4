@@ -1,13 +1,3 @@
-<<<<<<< HEAD
-=======
-
-
-//jQuery('.hamburger').on('click', function() {
- //   this.toggleClass('is-active');
-//});
-
-
-
 // this does work i am done so fuck this shit.
   // Look for .hamburger
   var hamburger = document.querySelector(".hamburger");
@@ -18,12 +8,6 @@
     // Do something else, like open/close menu
   });
 
-
-
-//Note: For some reason the $ alias isn't working for jQuery, but it can
-//      be called using jQuery(). FeelsBadMan. Will fix in future. Maybe.
-
->>>>>>> 30020d78d7e48f87449e32a37e425a8adb212d1f
 jQuery('#mobile-burger').on('click', function() {
 
 	var elem = jQuery(this),

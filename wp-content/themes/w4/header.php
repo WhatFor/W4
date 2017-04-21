@@ -34,7 +34,15 @@
 					
 				</a>
 
-				<a id="mobile-burger">menu &#9776;</a>
+				<a id="mobile-burger">
+					<span>menu </span>
+
+					<div class="hamburger hamburger--spring">
+						<div class="hamburger-box">
+							<div class="hamburger-inner"></div>
+						</div>
+					</div>
+				</a>
 
 				<nav id ="nav-bar-with-button">
 					<div id="menu-buttons-container">
@@ -56,22 +64,6 @@
 
 						</ul>
 					</div>
-<<<<<<< HEAD
-=======
-
-					<a id="mobile-burger">
-						<span>menu </span>
-
-						<div class="hamburger hamburger--spring">
-							<div class="hamburger-box">
-								<div class="hamburger-inner"></div>
-							</div>
-						</div>
-					
-					 </a>
-				
-
->>>>>>> 30020d78d7e48f87449e32a37e425a8adb212d1f
 				</nav>
 			</div>
 		</nav>
