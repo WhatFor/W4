@@ -31,7 +31,6 @@
 				<a class="inline-el" href="/wordpress">
 					<div id="nav-logo"></div>
 					<div id="nav-logo-text">Web Studio</div>
-					
 				</a>
 
 				<a id="mobile-burger">
@@ -56,7 +55,7 @@
 
 							<li class="menu__item"><a class="menu__link" href="/wordpress/about">About</a></li>
 
-							<li class="menu__item"><a class="menu__link menu-contact" href="/wordpress/contact">Contact Us</a></li>
+							<li class="menu__item"><a class="menu__link menu-contact" href="/wordpress/contact">Contact</a></li>
 
 							<form class="menu-link" action="/wordpress/contact">
 								<button type="submit" class="cta-button-main">Let's Talk</button>

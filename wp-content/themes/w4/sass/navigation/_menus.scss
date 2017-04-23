@@ -2,6 +2,11 @@
 @media screen and (max-width: 899px){
 
 	//This CSS is OFF
+
+	#menu-buttons-container {
+		width: 100vw;
+	}
+
 	.menu__item  {
 		background: white;
 		width: 0%;
@@ -9,9 +14,13 @@
 		border-top: 1px #afafaf solid;
 		margin-left: -30px;
 		transition: all .4s ease;
+		display: block !important;
+		float: none !important;
 		
 		a {
-			display: none !important;
+			width: 100vw;
+			margin-left: -100vw !important;
+			transition: all .4s ease;
 		}
 
 		//This CSS is ON
@@ -20,13 +29,13 @@
 			width: 100vw;
 
 			a {
-				display: block !important;
-				width: 100vw;
+				margin-left: 0px !important;
+				transition: all .4s ease;
 			}
 
 			a:hover {
 				background: $color__brand-primary;
-				transition: all .4s ease;
+				transition: all .4s line;
 				color: white !important;
 			}
 		}
@@ -50,7 +59,7 @@
 		line-height: 34px;
 		font-size:18px;
 		height: 60px;
-		padding:0px 0px 0px 30px;
+		padding:0;
 	}
 
 	.hamburger {
@@ -178,6 +187,7 @@
 }
 
 #nav-bar-with-button {
+	pointer-events: none;
 	float:right;
 }
 
@@ -195,7 +205,10 @@
 //*** CONTAINER FOR MAIN NAVIGATION BAR LINKS ***//
 #menu-buttons-container { 
 
+	pointer-events: none;
+	
 	a {
+		
 		display: inline-block;
 		height: 60px;
 		padding: 15px 40px;
@@ -207,6 +220,10 @@
 	a:hover {
 		border-bottom: 5px solid $color__brand-primary;
 	}
+}
+
+.nav-menu {
+	pointer-events: auto;
 }
 //*** END - MENU BUTTONS CONTAINER - END **//
 
