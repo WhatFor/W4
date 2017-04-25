@@ -8,12 +8,11 @@ get_header(); ?>
 
 			<div id="main-slider">
 
-				<div id="main-slider-image">
-				</div>
+				<!--<img id="main-slider-image" src="http://localhost/wordpress/wp-content/uploads/2017/04/1024px-Checkerboard_pattern.svg_.png"></img>-->
 
 				<div id="main-slider-content">
 
-					<h2 id="main-slider-header">We make things. Cool things.</h2>
+					<h1 id="main-slider-header">We make things. Cool things.</h1>
 
 					<p id="main-slider-body">
 						We're cool guys, honest. We make websites, cook pizza and grow weed.
@@ -24,63 +23,60 @@ get_header(); ?>
 						which every man, woman and child of the working class will forever be stuck.
 					</p>
 
-					<button id="main-slider-button" href='#'>
-						Ayyy lmao
+					<button id="main-slider-button" class="cta-button-secondary-dark" href='#'>
+						Kickstart your business
 					</button>
 
 				</div>
 
 			</div>
 
+			<div class="divider header-divider"></div>
+
 			<div id="types-section">
 
 				<div class="type-content" id="personal-type">
-					<div class="type-section-image">
-					</div>
 					
-					<h3 class="type-section-header">Personal</h3>
+					<h2 class="type-section-header">Personal</h2>
 					
 					<p class="type-section-body">
 						From personal blogs to portfolios, we can build a modern, custom page no matter what your passion is.
 					</p>
 					
-					<button class="type-section-button">
+					<button class="type-section-button cta-button-secondary">
 						Find out more
 					</button>
 				</div>
 
 				<div class="type-content" id="business-type">
-					<div class="type-section-image">
-					</div>
 					
-					<h3 class="type-section-header">Business</h3>
+					<h2 class="type-section-header">Business</h2>
 					
 					<p class="type-section-body">
 						From small to large businesses, we can deliver a site that gives you a professional edge over competition.
 					</p>
 					
-					<button class="type-section-button">
+					<button class="type-section-button cta-button-secondary">
 						Find out more
 					</button>
 				</div>
 
 				<div class="type-content" id="eCommerce-type">
-
-					<div class="type-section-image">
-					</div>
-					
-					<h3 class="type-section-header">eCommerce</h3>
+				
+					<h2 class="type-section-header">eCommerce</h2>
 					
 					<p class="type-section-body">
 						With a background in eCommerce, our pages are built using insider knowledge to push your sales to the limit.
 					</p>
 					
-					<button class="type-section-button">
+					<button class="type-section-button cta-button-secondary">
 						Find out more
 					</button>
 				</div>
 
 			</div>
+
+			<!--<div class="divider types-divider"></div>-->
 
 			<div id="about-us-section">
 

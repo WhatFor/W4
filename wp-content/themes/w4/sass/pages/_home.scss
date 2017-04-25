@@ -2,38 +2,47 @@
 
     #main-slider {
         height: 500px;
-        background-color: black;
+        background-color: #efefef;
         padding-left: 15%;
-        padding-top: 100px;
 
         #main-slider-image {
-            width: 400px;
-            height: 250px;
-            background-color: red;
+            width: 450px;
+            height: 500px;
             display: inline-block;
         }
 
         #main-slider-content {
             
             display: inline-block;
-            padding-left: 5%;
+            vertical-align: top;
+            padding-top: 90px;
+            padding-left: 25%;
 
             #main-slider-header {
-                color: $color__text-main-white;
+                color: #222;
                 display: block;
-                
+                text-align: right;
             }
 
             #main-slider-body {
                 display: block;
+                text-align: right;
+                line-height: 1.7;
                 width: 700px;
-                color: $color__text-main-white;
+                color: #222;
             }
 
             #main-slider-button {
                 display: block;
+                float: right;
             }
         }
+    }
+
+    .divider {
+        width: 100%;
+        height: 4px;
+        background-color: #e9e9e9;
     }
 
     #types-section {
@@ -42,16 +51,16 @@
         background-color: $color__brand-background_one;
         margin: auto;
         text-align: center;
-        padding: 75px 0px;
+        padding: 0px;
 
 
         .type-content {
-            width: 300px;
-            margin: 0px 100px;
+            width: 33%;
+            height:300px;
+            margin: 0px;
+            padding: 80px 40px;
             display: inline-block;
             background-color: $color__brand-background_three;
-            border-radius: 5px;
-            border: 1px solid $color__brand-background_two;
 
             .type-section-image {
                 background-color: black;
@@ -63,15 +72,29 @@
 
             .type-section-header {
                 margin: 0px;
+                color: white;
             }
 
             .type-section-body {
                 margin: 5px 15px;
+                color: white;
             }
 
             .type-section-button {
                 margin: 10px 0px 20px 0px;
             }
+        }
+
+        #personal-type {
+            background-image: url('http://localhost/wordpress/wp-content/uploads/2017/04/types-1.jpg');
+        }
+
+        #business-type {
+            background-image: url('http://localhost/wordpress/wp-content/uploads/2017/04/types-2.jpg');
+        }
+
+        #eCommerce-type {
+            background-image: url('http://localhost/wordpress/wp-content/uploads/2017/04/types-3.jpg');
         }
     }
 
