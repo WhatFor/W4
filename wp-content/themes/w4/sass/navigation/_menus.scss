@@ -8,10 +8,10 @@
 	}
 
 	.menu__item  {
-		background: white;
+		background: $color__brand-background_one;
 		width: 0%;
 		transition: all .5s ease;
-		border-top: 1px #afafaf solid;
+		border-bottom: 1px #0d0d0d solid;
 		margin-left: -30px;
 		transition: all .4s ease;
 		display: block !important;
@@ -29,14 +29,29 @@
 			width: 100vw;
 
 			a {
+				color: $color__text-main-white !important;
+				font-weight: bold;
+				
+				background: #424242;
 				margin-left: 0px !important;
 				transition: all .4s ease;
 			}
 
 			a:hover {
-				background: $color__brand-primary;
+				background: #424242;
 				transition: all .4s line;
 				color: white !important;
+				border-bottom: 0px solid !important;	//we could probs revive this
+			}
+			//lets talk styling
+			a.menu-contact{
+				background-color: $color__brand-primary;
+				font-weight: normal;
+			}
+			a.menu-contact:hover{
+				color: $color__brand-primary !important;
+				background-color: white !important;
+				
 			}
 		}
 	}
@@ -90,7 +105,7 @@
 		}
 
 		.menu-contact {
-			display: none;
+			display: none !important;
 		}
 
 		.menu-link {

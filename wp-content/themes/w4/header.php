@@ -56,7 +56,7 @@
 
 							<li class="menu__item"><a class="menu__link" href="/wordpress/about">About</a></li>
 
-							<li class="menu__item"><a class="menu__link menu-contact" href="/wordpress/contact">Contact</a></li>
+							<li class="menu__item"><a class="menu__link menu-contact" href="/wordpress/contact">Lets Talk!</a></li>
 
 							<form class="menu-link" action="/wordpress/contact">
 								<button type="submit" class="cta-button-main">Let's Talk</button>
