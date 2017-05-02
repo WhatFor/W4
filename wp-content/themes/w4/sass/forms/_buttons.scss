@@ -20,7 +20,7 @@ button.cta-button-main:hover{
 	transition:0.2s;
 	color:$color__brand-primary-hover;
 	border: 2px solid $color__brand-primary;
-	background: white;
+	background: $color__brand-background_one;
 }
 
 button.cta-button-secondary-dark {
@@ -33,6 +33,7 @@ button.cta-button-secondary-dark {
 	font-size: 16px;
 	margin-top:10px;
 	margin-left: 15px;
+	padding-top: 5px;
 	padding-left: 20px;
 	padding-right: 20px;
 	min-width: 120px;
@@ -56,19 +57,18 @@ button.cta-button-secondary {
 	text-decoration: none;
 	display: inline-block !important;
 	font-size: 16px;
-	margin-top:10px;
-	margin-left: 15px;
 	padding-left: 20px;
 	padding-right: 20px;
+	padding-top: 5px;
 	min-width: 120px;
 	height: 40px;
+	line-height: 0;
 	border-radius: 8px;
 }
 
 button.cta-button-secondary:hover{
 	
 	transition:0.2s;
-	color: #222;
 	border: 2px solid $color__brand-primary;
 	background: $color__brand-primary;
 }

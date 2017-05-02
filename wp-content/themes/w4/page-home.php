@@ -31,8 +31,6 @@ get_header(); ?>
 
 			</div>
 
-			<div class="divider header-divider"></div>
-
 			<div id="types-section">
 
 				<div class="type-content" id="personal-type">
@@ -76,9 +74,10 @@ get_header(); ?>
 
 			</div>
 
-			<!--<div class="divider types-divider"></div>-->
-
 			<div id="about-us-section">
+
+				<div id="about-us-image">
+				</div>
 
 				<div id="about-us-content">
 					<h3 id="about-us-header">About us</h3>
@@ -90,10 +89,6 @@ get_header(); ?>
 						think we'll be finding the answer in this body of text. Oh well...
 					</p>
 				</div>
-
-				<div id="about-us-image">
-				</div>
-
 			</div>
 
 			<div id="solutions-section">

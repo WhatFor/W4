@@ -8,7 +8,7 @@
 					<h1>Let's work together</h1>
 				</div>
 
-				<div id="footer-panel-container">
+				<div id="footer-panel-container-left">
 
 					<div id="footer-panel-email">
 						<h3>Send us an email</h3>
@@ -23,7 +23,7 @@
 				</div>
 
 				<div id="footer-additional-info">
-					<p>Additional information about our site here. This was wrote by me. At 22:33PM.</p>
+					<p> © 2017 W4 Studios Ltd Registered in England, No. 0123456 VAT No. 111111111 </p>
 				</div>
 
 			</div>

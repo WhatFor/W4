@@ -16,7 +16,7 @@
             display: inline-block;
             vertical-align: top;
             padding-top: 90px;
-            padding-left: 25%;
+            padding-left: 33%;
 
             #main-slider-header {
                 color: #222;
@@ -49,13 +49,17 @@
 
         display: block;
         background-color: $color__brand-background_one;
-        margin: auto;
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        height: 300px;
         text-align: center;
-        padding: 0px;
+        
 
 
         .type-content {
-            width: 33%;
+            width:33.33333333%;
+            float: left; //'Ignored', but still has an effect. Don't remove.
             height:300px;
             margin: 0px;
             padding: 80px 40px;
@@ -100,31 +104,33 @@
 
     #about-us-section {
 
-        height: 400px;
-        background-color: black;
+        height: 450px;
+        background-color: $color__brand-background_one;
         display: block;
-        padding: 50px 400px;
+        padding-top: 75px;
+        padding-left: 25%;
 
         #about-us-image {
             width: 300px;
             height: 300px;
-            background-color: red;
-            float: right;
+            background-color: #333;
+            display: inline-block;
         }
 
         #about-us-content {
 
             display: inline-block;
+            vertical-align: top;
+            padding-top: 60px;
+            padding-left: 50px;
 
             #about-us-header {
                 display: block;
-                color: $color__text-main-white;
             }
 
             #about-us-body {
                 display: block;
                 width: 500px;
-                color: $color__text-main-white;
             }
         }
     }
