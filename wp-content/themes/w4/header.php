@@ -52,7 +52,7 @@
 
 							<li class="menu__item"><a class="menu__link" href="/wordpress/sites-for">Services</a></li>
 
-							<li class="menu__item"><a class="menu__link" href="/wordpress/showcase">Clients</a></li>
+							<!--<li class="menu__item"><a class="menu__link" href="/wordpress/showcase">Clients</a></li>-->
 
 							<li class="menu__item"><a class="menu__link" href="/wordpress/about">About</a></li>
 

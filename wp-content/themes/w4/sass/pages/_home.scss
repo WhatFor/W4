@@ -90,15 +90,15 @@
         }
 
         #personal-type {
-            background-image: url('http://localhost/wordpress/wp-content/uploads/2017/04/types-1.jpg');
+            background-image: url('http://localhost/wordpress/wp-content/uploads/2017/07/types-1.jpg');
         }
 
         #business-type {
-            background-image: url('http://localhost/wordpress/wp-content/uploads/2017/04/types-2.jpg');
+            background-image: url('http://localhost/wordpress/wp-content/uploads/2017/07/types-2.jpg');
         }
 
         #eCommerce-type {
-            background-image: url('http://localhost/wordpress/wp-content/uploads/2017/04/types-3.jpg');
+            background-image: url('http://localhost/wordpress/wp-content/uploads/2017/07/types-3.jpg');
         }
     }
 
@@ -141,19 +141,21 @@
 
             display: block;
             padding: 50px 300px;
-            height: 330px;
+            height: 410px;
 
             .solution-content {
 
                 display: inline-block;
-                margin-left: 100px;
+                width: 60%;
+                margin-left: 50px;
 
                 .solution-content-header {
-                    color: $color__text-main-white;
+                    color: $color__brand-background_four;
                 }
 
                 .solution-content-body {
-                    color: $color__text-main-white;
+                    color: $color__brand-background_four;
+                    margin-bottom: 20px;
                 }
             }
             
@@ -165,12 +167,44 @@
             }
         }
 
+        .header-underline{
+            background-color: $color__text-main-white;
+            display: block;
+            height: 1px;
+            width: 50%;
+
+        }
+
+        .solution-contact-badge{
+            padding: 5px 10px;
+            display: inline-block;
+            border: 2px solid $color__brand-primary;
+            border-radius: 5px;
+            color: $color__text-main-white;
+        }
+
         #complete-solution {
-            background-color: blue;
+            background-color: $color__brand-background_four;
+
+            h3 {
+                color: $color__text-main-white;
+            }
+
+            p {
+                color: $color__text-main-white;
+            }
         }
 
         #install-solution {
-            background-color: red;
+            background-color: $color__brand-background_one;
+
+            .header-underline{
+                background-color: $color__brand-background_four;
+            }
+
+            .solution-contact-badge{
+                color: $color__brand-background_four;
+            }
 
             .solution-image {
                 float: right;
@@ -178,13 +212,22 @@
         }
 
         #handover-solution {
-            background-color: blue;
+
+            h3 {
+                color: $color__text-main-white;
+            }
+
+            p {
+                color: $color__text-main-white;
+            }
+
+            background-color: $color__brand-background_four;
         }
     }
 
     #clients-section {
         height: 600px;
-        display: block;
+        display: none;
         background-color: purple;
         padding: 100px 400px;
 

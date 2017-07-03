@@ -103,11 +103,19 @@ get_header(); ?>
 							Complete Package
 						</h3>
 
+						<div class="header-underline"></div>
+
 						<p class="solution-content-body">
 							With this package, we'll build your site, set up your hosting
-							and domain and install it all for you. You literally dont
-							even need to touch a computer.
+							and domain and install it all for you, make you a cup of tea while you wait, give your dad a handy in the 
+							car park (and a certificate to prove it), bathe your puppy using only the finest hair-care products
+							a man can buy, untangle your headphones and roll you a joint of the finest oregano on the market today. 
+							And, you literally dont	even need to touch a computer.
 						</p>
+
+						<div class="solution-contact-badge">
+							Contact us for more info
+						</div>
 					</div>
 				</div>
 
@@ -118,11 +126,19 @@ get_header(); ?>
 							Install Package
 						</h3>
 
+						<div class="header-underline"></div>
+
 						<p class="solution-content-body">
-							With this package, we'll build and install your website
-							on your own hosting, if you already have a site and are
-							looking for an upgrade.
+							With this package, we'll build your site, set up your hosting
+							and domain and install it all for you, make you a cup of tea while you wait, give your dad a handy in the 
+							car park (and a certificate to prove it), bathe your puppy using only the finest hair-care products
+							a man can buy, untangle your headphones and roll you a joint of the finest oregano on the market today. 
+							And, you literally dont	even need to touch a computer.
 						</p>
+
+						<div class="solution-contact-badge">
+							Contact us for more info
+						</div>
 					</div>
 
 					<div class="solution-image">
@@ -140,11 +156,19 @@ get_header(); ?>
 							Handover Package
 						</h3>
 
+						<div class="header-underline"></div>
+
 						<p class="solution-content-body">
-							We'll build your site and then email you the files.
-							Not really much to this one, really. You don't want this
-							package anyway.
+							With this package, we'll build your site, set up your hosting
+							and domain and install it all for you, make you a cup of tea while you wait, give your dad a handy in the 
+							car park (and a certificate to prove it), bathe your puppy using only the finest hair-care products
+							a man can buy, untangle your headphones and roll you a joint of the finest oregano on the market today. 
+							And, you literally dont	even need to touch a computer.
 						</p>
+
+						<div class="solution-contact-badge">
+							Contact us for more info
+						</div>
 					</div>
 				</div>
 
