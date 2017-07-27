@@ -10,6 +10,7 @@
 
 			wp_enqueue_script( 'menu_script', get_stylesheet_directory_uri() . '/js/menu.js', array('jquery'));
 			wp_enqueue_style( 'google-fonts', '//fonts.googleapis.com/css?family=Open+Sans|Lato', array(), CHILD_THEME_VERSION );
+			wp_enqueue_style( 'google-icons', 'https://fonts.googleapis.com/icon?family=Material+Icons', array(), CHILD_THEME_VERSION );
 		?>
 
 	</head>
