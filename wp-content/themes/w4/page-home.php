@@ -96,6 +96,7 @@ get_header(); ?>
 				<div class="solution-section-content" id="complete-solution">
 
 					<div class="solution-image">
+						<i class="material-icons">&#xE8CD;</i>
 					</div>
 
 					<div class="solution-content">
@@ -142,6 +143,7 @@ get_header(); ?>
 					</div>
 
 					<div class="solution-image">
+						<i class="material-icons">&#xE2C3;</i>
 					</div>
 
 				</div>
@@ -149,6 +151,7 @@ get_header(); ?>
 				<div class="solution-section-content" id="handover-solution">
 
 					<div class="solution-image">
+						<i class="material-icons">&#xE86F;</i>
 					</div>
 
 					<div class="solution-content">

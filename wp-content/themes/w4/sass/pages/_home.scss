@@ -141,31 +141,57 @@
 
             display: block;
             padding: 50px 300px;
-            height: 410px;
+            min-height: 410px;
 
             .solution-content {
 
                 display: inline-block;
                 width: 60%;
                 margin-left: 50px;
+                margin-right: 0px;
 
                 .solution-content-header {
                     color: $color__brand-background_four;
                 }
+                
+               
 
                 .solution-content-body {
                     color: $color__brand-background_four;
                     margin-bottom: 20px;
                 }
             }
+
+            .solution-content:nth-child(2n+1) {
+
+                display: inline-block;
+                margin-right: 50px;
+                margin-left: 0px;
+            }
             
             .solution-image {
                 width: 200px;
                 height: 200px;
                 display: inline-block;
-                background-color: green;
+                font-family: $font__icons;
+                vertical-align: top;
+                margin-top: 80px;
+
+                 .material-icons{
+                    font-size:200px;
+                    color: inherit;
+                }
+
+                i{
+                    width:100%;
+                    height:auto;
+                }
             }
         }
+
+        #solutions-section .material-icons{
+                    font-size:200px
+                }
 
         .header-underline{
             background-color: $color__text-main-white;
@@ -185,12 +211,7 @@
 
         #complete-solution {
             background-color: $color__brand-background_four;
-
-            h3 {
-                color: $color__text-main-white;
-            }
-
-            p {
+            h3,p,i {
                 color: $color__text-main-white;
             }
         }
@@ -206,6 +227,10 @@
                 color: $color__brand-background_four;
             }
 
+            i{
+                color: $color__brand-background_four;
+            }
+
             .solution-image {
                 float: right;
             }
@@ -213,13 +238,13 @@
 
         #handover-solution {
 
-            h3 {
+           
+
+            h3,p,i {
                 color: $color__text-main-white;
             }
 
-            p {
-                color: $color__text-main-white;
-            }
+            
 
             background-color: $color__brand-background_four;
         }
